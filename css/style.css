@@ -15,7 +15,7 @@
   --secondary-text-color: #212121;
   --primary-accent-color: #2196f3;
   --secondary-accent-color: #ffffff;
-  --icon-color: rgba(175, 177, 184, 1)
+  --icon-color: #afb1b8;
 
   --primary-background: rgba(255, 255, 255, 1);
   --secondary-background: #f5f4fa;
@@ -279,6 +279,7 @@ address {
 
 .team-box .item {
   flex-basis: calc(100% / 4 - var(--margin));
+  background-color: var(--secondary-accent-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
@@ -303,8 +304,8 @@ address {
   justify-content: center;
   align-items: center;
   margin-top: 16px;
- }
- 
+}
+
 .social-item:not(:last-child) {
   margin-right: 10px;
 }
@@ -385,7 +386,7 @@ address {
   margin-bottom: 9px;
 }
 
-.footer-socials-text{
+.footer-socials-text {
   margin-bottom: 20px;
   color: var(--secondary-accent-color);
   font-weight: 700;
@@ -396,13 +397,12 @@ address {
   background-color: rgba(255, 255, 255, 0.1);
 }
 
-
 .footer .social-link:hover,
 .footer .social-link:focus {
   background-color: var(--primary-accent-color);
 }
 
-.footer .social-icon{
+.footer .social-icon {
   fill: var(--secondary-accent-color);
 }
 
@@ -412,7 +412,7 @@ address {
   justify-content: center;
   margin-bottom: 50px;
 }
-.section.examples{
+.section.examples {
   margin-bottom: 94px;
 }
 .filter-item:not(:last-child) {
@@ -442,7 +442,7 @@ address {
   display: block;
 }
 .examples-set .link:hover,
-.examples-set .link:focus{
+.examples-set .link:focus {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
 }
